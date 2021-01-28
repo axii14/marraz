@@ -1,7 +1,94 @@
 body{
+    font-family: 'Open Sans', sans-serif;
     background-color: #212121;
-    font-family: 'Hapole-Pencil';
 }
+ 
+
+#bixak {
+  width: 100%;
+  height: 6%;
+  margin: 0 auto;
+  text-align:center;
+}
+
+*{
+    outline: 0;
+    cursor: url("drogon.png"), pointer;
+    color: #BDBDBD;
+    font-family: "Hapole Pencil";
+    font-size: 30px;
+}
+  
+section{
+    margin: 30px auto;
+    width: 90%;
+    color: #faebcd;
+    font-size: 20px;
+}
+  
+summary{
+    cursor: pointer;
+    padding: 20px;
+    font-family: "Colors Of Autumn";
+    font-size: 28px;
+    border-bottom: 2px solid;
+    color: #f5b553;
+}
+  
+
+  
+
+  
+  
+ h1{
+    color: white;
+    text-align: center;
+    font-family: Muthiara -Demo Version-;
+ }
+  
+ #argazkixa{
+    transition: all 0.5s;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    
+  
+ }
+
+ video{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ }
+
+ #argazkixa:hover{
+    transform: scale(1.09);
+    opacity: 1;;
+}
+  
+
+p{
+    text-align: center;
+}
+
+
+   h2{
+    font-weight: 400;
+    text-align: center;
+    font-family: "bromello";
+  }
+
+  .erdixa{
+    width: 44%;
+    float: left;
+    margin: 4% 0 0% 4%;
+    text-align: center;
+  }
+  .erdixa #argazkixa{
+max-width: 800px;
+  }
   
 @font-face {
     font-family: 'Hapole-Pencil';
