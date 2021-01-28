@@ -1,9 +1,14 @@
 body{
     background-color: #212121;
+    font-family: 'Hapole-Pencil';
 }
   
-*{
-    @font-face {
-    src: url("https://github.com/axii14/Marraz/blob/main/BROMELLO-REGULAR.OTF");
+@font-face {
+    font-family: 'Hapole-Pencil';
+    src:url('Hapole-Pencil.ttf.woff') format('woff'),
+        url('Hapole-Pencil.ttf.svg#Hapole-Pencil') format('svg'),
+        url('Hapole-Pencil.ttf.eot'),
+        url('Hapole-Pencil.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
     font-style: normal;
 }
