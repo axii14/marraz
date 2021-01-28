@@ -2,7 +2,6 @@ body{
     font-family: 'Open Sans', sans-serif;
     background-color: #212121;
 }
- 
 
 #bixak {
   width: 100%;
@@ -32,13 +31,19 @@ summary{
     font-family: "Colors Of Autumn";
     font-size: 28px;
     border-bottom: 2px solid;
-    color: #f5b553;
 }
-  
-
-  
-
-  
+  #a1{
+    color: #f5b553;
+  }
+  #a2{
+    color: #f59aa3;
+  }
+  #a3{
+    color: #34a7b2;
+  }
+  #a4{
+    color: #a696c8;
+  }
   
  h1{
     color: white;
@@ -52,9 +57,15 @@ summary{
       margin-left: auto;
       margin-right: auto;
       width: 50%;
-    
-  
  }
+
+ #argazkixa2{
+  transition: all 0.5s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
 
  video{
   display: block;
@@ -67,35 +78,30 @@ summary{
     transform: scale(1.09);
     opacity: 1;;
 }
-  
+#argazkixa2:hover{
+  transform: scale(1.09);
+  opacity: 1;;
+}
+
+.erdixa {
+  float: left;
+  width: 50%;
+}
+
+.bi:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 p{
     text-align: center;
+    font-size: 35px;
 }
 
-
-   h2{
-    font-weight: 400;
-    text-align: center;
-    font-family: "bromello";
-  }
-
-  .erdixa{
-    width: 44%;
-    float: left;
-    margin: 4% 0 0% 4%;
-    text-align: center;
-  }
-  .erdixa #argazkixa{
-max-width: 800px;
-  }
-  
-@font-face {
-    font-family: 'Hapole-Pencil';
-    src:url('https://github.com/axii14/Marraz/blob/main/Hapole-Pencil.ttf.woff') format('woff'),
-        url('https://github.com/axii14/Marraz/blob/main/Hapole-Pencil.ttf.svg') format('svg'),
-        url('https://github.com/axii14/Marraz/blob/main/Hapole-Pencil.ttf.eot'),
-        url('https://github.com/axii14/Marraz/blob/main/Hapole-Pencil.ttf.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
+h2{
+  font-weight: 400;
+  text-align: center;
+  font-family: "bromello";
+  font-size: 50px;
 }
