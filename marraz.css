@@ -92,10 +92,10 @@ max-width: 800px;
   
 @font-face {
     font-family: 'Hapole-Pencil';
-    src:url('Hapole-Pencil.ttf.woff') format('woff'),
-        url('Hapole-Pencil.ttf.svg#Hapole-Pencil') format('svg'),
-        url('Hapole-Pencil.ttf.eot'),
-        url('Hapole-Pencil.ttf.eot?#iefix') format('embedded-opentype'); 
+    src:url('https://github.com/axii14/Marraz/blob/main/Hapole-Pencil.ttf.woff') format('woff'),
+        url('https://github.com/axii14/Marraz/blob/main/Hapole-Pencil.ttf.svg') format('svg'),
+        url('https://github.com/axii14/Marraz/blob/main/Hapole-Pencil.ttf.eot'),
+        url('https://github.com/axii14/Marraz/blob/main/Hapole-Pencil.ttf.eot?#iefix') format('embedded-opentype'); 
     font-weight: normal;
     font-style: normal;
 }
