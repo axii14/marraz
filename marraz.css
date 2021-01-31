@@ -65,6 +65,36 @@ summary{
       margin-right: auto;
       width: 50%;
  }
+ #argazkixaa2{
+  transition: all 0.5s;
+ 
+  margin-left: -90px;
+    margin-top: 2%;
+    width: 80%;
+}
+#argazkixaa{
+  transition: all 0.5s;
+    display: block;
+    margin-left: 180px;
+    width: 40%;
+}
+
+.erdixaa1 {
+  float: left;
+  width: 33.33%;
+  
+}
+.erdixaa2 {
+  float: left;
+  width: 66%;
+  
+}
+
+.tit::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 #titu{
   transition: all 0.5s;
@@ -94,6 +124,10 @@ summary{
     opacity: 1;;
 }
 #argazkixa2:hover{
+  transform: scale(1.09);
+  opacity: 1;;
+}
+#argazkixaa2:hover{
   transform: scale(1.09);
   opacity: 1;;
 }
