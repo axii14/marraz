@@ -63,6 +63,14 @@ summary{
       width: 50%;
  }
 
+#titu{
+  transition: all 0.5s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
  #argazkixa2{
   transition: all 0.5s;
     display: block;
@@ -83,6 +91,11 @@ summary{
     opacity: 1;;
 }
 #argazkixa2:hover{
+  transform: scale(1.09);
+  opacity: 1;;
+}
+
+#titu:hover{
   transform: scale(1.09);
   opacity: 1;;
 }
