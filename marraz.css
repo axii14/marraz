@@ -35,6 +35,20 @@ summary{
     font-size: 28px;
     border-bottom: 2px solid;
 }
+
+#a1{
+    color: #f5b553;
+  }
+  #a2{
+    color: #f59aa3;
+  }
+  #a3{
+    color: #34a7b2;
+  }
+  #a4{
+    color: #a696c8;
+  }
+
   #zatixak{
   width: 14%;
 }
