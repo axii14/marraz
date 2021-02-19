@@ -96,6 +96,13 @@ width: 42%;
     margin-right: auto;
     width: 50%;
 }
+#hacka{
+  transition: all 0.5s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
 #argazkixaa2{
 transition: all 0.5s;
 
@@ -106,8 +113,31 @@ margin-left: -110px;
 #argazkixaa{
 transition: all 0.5s;
   display: block;
-  margin-left: 180px;
+  margin-left: auto;
+  margin-right: auto;
   width: 80%;
+}
+#spiderman{
+  transition: all 0.5s;
+    display: block;
+    margin-left: 430px;
+    margin-right: auto;
+    width: 40%;
+  }
+#distantzia{
+  transition: all 0.5s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+#dis{
+  transition: all 0.5s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 .erdixaa1 {
@@ -175,6 +205,10 @@ opacity: 1;;
 transform: scale(1.09);
 opacity: 1;;
 }
+#spiderman:hover{
+  transform: scale(1.09);
+  opacity: 1;;
+  }
 
 #titu:hover{
 transform: scale(1.09);
@@ -186,6 +220,22 @@ float: left;
 width: 50%;
 }
 
+.herena {
+  float: left;
+  width: 33,33%;
+  margin-left: 30px;
+  margin-left: -80px;
+  }
+
+  #generala{
+    background-color: rgb(143, 28, 28);
+  text-align: center;
+  width: 60%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px outset white;
+  }
 
 .bi:after {
 content: "";
