@@ -354,3 +354,10 @@ a#zabaldu:hover{
     -o-transition: top 0.35s ease;
     transition: top 0.35s ease;
 }
+
+#ebakidura{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+}
