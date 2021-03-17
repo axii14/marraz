@@ -174,7 +174,22 @@ margin-right: auto;
 width: 80%;
 }
 
-#argazkixaa:hover{
+#argazkixa{
+transition: all 0.5s;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+#argazkixaaa{
+transition: all 0.5s;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#argazkixaa:hover, #argazkixa:hover, #argazkixaaa:hover{
 transform: scale(1.09);
 }
 
