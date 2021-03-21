@@ -189,7 +189,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
-#argazkixaa:hover, #argazkixa:hover, #argazkixaaa:hover{
+#argazkixaa:hover, #argazkixa:hover, #argazkixaaa:hover {
 transform: scale(1.09);
 }
 
@@ -203,6 +203,11 @@ width: 19%;
 margin-bottom:-10px;
 }
 
+#zatixak{
+width: 14%;
+margin-bottom:-10px;
+}
+
 #bidixua{
 display: block;
 margin-left: auto;
@@ -213,7 +218,7 @@ margin-right: auto;
 display: block;
 margin-left: auto;
 margin-right: auto;
-width: 80%;
+width: 90%;
 }
 
 p{
@@ -222,7 +227,7 @@ font-size: 35px;
 }
 
 .ebaki{
-  color: #c27edd;
+color: #c27edd;
 }
 
 .erdixa {
@@ -235,4 +240,6 @@ content: "";
 display: table;
 clear: both;
 }
+
+
 
