@@ -225,4 +225,14 @@ font-size: 35px;
   color: #c27edd;
 }
 
+.erdixa {
+float: left;
+width: 50%;
+}
+
+.bi:after {
+content: "";
+display: table;
+clear: both;
+}
 
