@@ -1,0 +1,105 @@
+body {
+    background: #141414;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    color: #6D6D6D;
+    opacity: 0;
+    -webkit-animation: fade-in 500ms ease 200ms 1 forwards;
+            animation: fade-in 500ms ease 200ms 1 forwards;
+  }
+  
+  body h1 {
+    color: #fff;
+    font-size: 50px;
+  }
+  
+
+  
+  
+  
+  @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+  .wrappera {
+    margin: 100px 0;
+    text-align: center;
+  }
+  
+  .perfila {
+    width: 150px;
+  }
+  
+  .wrapa {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    max-width: 800px;
+    margin: 50px auto;
+  }
+  
+  .ikonua {
+    width: 150px;
+    height: 150px;
+    border: 6px solid #1f1f1f;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+  }
+  
+  .deskripziñua {
+    margin: 20px 0;
+    line-height: 1.25em;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+  }
+  
+  .perfila:hover .ikonua {
+    border: 6px solid #EBECEC;
+  }
+  
+  .perfila:hover .deskripziñua {
+    color: #EBECEC;
+  }
+  
+  .ikonua {
+    background-image: url("https://i.gyazo.com/aa72f20bdacb2e23beb7b065a6b43739.png");
+    background-size: cover;
+  }
+  
+  img{
+      height:100%;
+      width:100%;
+      object-fit: cover;
+  }
+
+a{
+  text-decoration: none;
+  color: #6D6D6D;
+}
