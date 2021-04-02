@@ -14,7 +14,7 @@ body {
   }
   
 *{
-  cursor: url("Images/kompasa1.png"), default;
+  cursor: url("https://github.com/axii14/Marraz/blob/main/Images/kompasa1.png?raw=true"), default;
 }
   
   @-webkit-keyframes fade-in {
@@ -71,7 +71,7 @@ body {
     border: 6px solid #1f1f1f;
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
-    cursor: url("Images/kompasa2.png"), pointer;
+    cursor: url("https://github.com/axii14/Marraz/blob/main/Images/kompasa2.png?raw=true"), pointer;
   }
   
   .deskripziñua {
@@ -98,7 +98,7 @@ body {
       height:100%;
       width:100%;
       object-fit: cover;
-      cursor: url("Images/kompasa2.png"), pointer;
+      cursor: url("https://github.com/axii14/Marraz/blob/main/Images/kompasa2.png?raw=true"), pointer;
   }
 
 a{
