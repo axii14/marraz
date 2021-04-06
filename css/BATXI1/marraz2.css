@@ -246,6 +246,20 @@ display: table;
 clear: both;
 }
 
+.pla1 {
+float: left;
+width: 30%;
+}
+.pla2 {
+float: left;
+width: 70%;
+}
+
+.ebak{
+  font-size: 30px;
+  transform: translateY(50%);
+}
+
 
 
 h1{
