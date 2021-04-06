@@ -260,6 +260,15 @@ width: 70%;
   transform: translateY(50%);
 }
 
+#titu{
+  transition: all 0.5s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+
 
 
 h1{
