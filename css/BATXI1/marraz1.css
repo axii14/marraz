@@ -262,6 +262,13 @@ body{
     width: 80%;
   }
 
+#titulotxua{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
   #distantzia{
     transition: all 0.5s;
       display: block;
