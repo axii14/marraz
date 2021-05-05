@@ -113,6 +113,11 @@ body.active .botoia span:nth-child(3) {
   background:#222;
 }
 
+#sidebarra .linkak #linka7:hover:before{
+  left:0px;
+  background:#0A0D0E;
+}
+
 #linka1, #linka2, #linka3, #linka4, #linka5, #linka6{
   color:#ddd;
 }
@@ -134,6 +139,15 @@ body.active .botoia span:nth-child(3) {
 #linka6:hover{
   color: #ff9a3c;
 }
+
+#mongge{
+  transition: all 0.5s;
+}
+
+#mongge:hover{
+  transform: scale(1.2);
+}
+
 
 
 
