@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
+@font-face {src: url("..\../Colors\ Of\ Autumn.ttf"); 
+  font-family: "aaa"; }
+
+  summary{
+    font-family: "aaa";
+  }
 
 body.active #sidebarra {
   left:0px;
@@ -112,11 +118,6 @@ body.active .botoia span:nth-child(3) {
   background:#222;
 }
 
-#sidebarra .linkak #linka7:hover:before{
-  left:0px;
-  background:#0A0D0E;
-}
-
 #linka1, #linka2, #linka3, #linka4, #linka5, #linka6{
   color:#ddd;
 }
@@ -139,14 +140,6 @@ body.active .botoia span:nth-child(3) {
   color: #ff9a3c;
 }
 
-#mongge{
-  transition: all 0.5s;
-}
-
-#mongge:hover{
-  transform: scale(1.2);
-}
-
 
 
 
@@ -157,4 +150,48 @@ body.active .botoia span:nth-child(3) {
 body{
   font-family: "Open Sans";
   background-color: #212121;
+}
+
+*{
+  outline: 0;
+  color: #BDBDBD;
+  font-size: 30px;
+}
+
+section{
+  margin: 30px auto;
+  width: 90%;
+  color: #faebcd;
+  font-size: 20px;
+}
+
+summary{
+  cursor: pointer;
+  padding: 20px;
+  font-family: "Arvo", Georgia, serif;
+  font-size: 28px;
+  border-bottom: 2px solid;
+}
+
+#spiderman{
+transition: all 0.5s;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 40%;
+}
+
+#spiderman:hover{
+transform: scale(1.09);
+}
+
+#zatixak7{
+width: 16%;
+margin-bottom:-10px;
+}
+
+#bidixua{
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
